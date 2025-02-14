@@ -1,0 +1,12 @@
+.flexparent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.flexchild {
+  width: auto;
+}

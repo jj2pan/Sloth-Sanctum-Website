@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* font-family: "Roboto", serif; */
+
+@font-face {
+  font-family: jungle;
+  src: url(/html-css-basics/fonts/jungle.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 110px;
+  padding: 8px;
+  background: rgba(115, 167, 136, 0.8);
+}
+
+header a {
+  text-decoration: none;
+}
+
+.logo {
+  background: url(/html-css-basics/images/logo.png) no-repeat;
+  width: 300px;
+  height: 100px;
+  margin-left: 10px;
+  background-size: 80px;
+  padding-left: 83px;
+  padding-top: 12px;
+  background-position: left center;
+  font-family: jungle;
+  font-size: 35px;
+  color: #135e46;
+  text-shadow: 3px 1px black;
+  transition: 0.3s;
+}
+
+.logo:hover {
+  transform: translate(5px);
+  color: beige;
+}
+
+nav {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  font-family: jungle;
+  font-size: 24px;
+  color: #b67b65;
+  text-shadow: 1px 1px black;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  transform: scale(1.15);
+  color: beige;
+}
+
+/* banner */
+.banner {
+  height: 300px;
+  width: 100%;
+  background: url(/html-css-basics//images/slothEating.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: 2px solid whitesmoke;
+}
+
+/* Meet Sloths */
+.meetsloths h1 {
+  font-family: "Roboto", serif;
+  font-size: 25px;
+  padding-left: 25px;
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
+}
+
+.meetsloths {
+  width: 100%;
+  height: 350px;
+  padding-top: 20px;
+  background-color: rgba(115, 167, 136, 0.8);
+}
+
+.sloths {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sloths div {
+  border: 5px solid beige;
+  border-radius: 25px;
+  height: 250px;
+  width: 25%;
+  overflow: hidden;
+}
+
+.sloth1 {
+  width: 100%;
+  height: 100%;
+}
+
+.sloth2 {
+  width: 100%;
+  height: 100%;
+}
+
+.sloth3 {
+  width: 100%;
+  height: 100%;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  background-color: rgba(115, 167, 136, 0.8);
+  font-family: "Roboto", serif;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+}
