@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: jungle;
-  src: url(/html-css-basics/fonts/jungle.ttf);
+  src: url(/Html-css-basics/fonts/jungle.ttf);
 }
 
 * {
@@ -27,7 +27,7 @@ header a {
 }
 
 .logo {
-  background: url(/html-css-basics/images/logo.png) no-repeat;
+  background: url(/Html-css-basics/images/logo.png) no-repeat;
   width: 300px;
   height: 100px;
   margin-left: 10px;
@@ -37,7 +37,7 @@ header a {
   background-position: left center;
   font-family: jungle;
   font-size: 35px;
-  color: #135e46;
+  color: #b67b65;
   text-shadow: 3px 1px black;
   transition: 0.3s;
 }
@@ -71,7 +71,7 @@ nav a:hover {
 .banner {
   height: 300px;
   width: 100%;
-  background: url(/html-css-basics//images/slothEating.jpg) no-repeat;
+  background: url(/Html-css-basics//images/slothEating.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   border: 2px solid whitesmoke;
@@ -99,7 +99,6 @@ nav a:hover {
 }
 
 .sloths div {
-  border: 5px solid beige;
   border-radius: 25px;
   height: 250px;
   width: 25%;
