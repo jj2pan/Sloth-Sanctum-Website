@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: jungle;
-  src: url(/Html-css-basics/fonts/jungle.ttf);
+  src: url(/fonts/jungle.ttf);
 }
 
 * {
@@ -27,7 +27,7 @@ header a {
 }
 
 .logo {
-  background: url(/Html-css-basics/images/logo.png) no-repeat;
+  background: url(/images/logo.png) no-repeat;
   width: 300px;
   height: 100px;
   margin-left: 10px;
@@ -69,93 +69,56 @@ nav a:hover {
 
 /* banner */
 .banner {
-  height: 250px;
+  height: 300px;
   width: 100%;
-  background: url(/Html-css-basics/images/slothEating.jpg) no-repeat;
+  background: url(/images/slothEating.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   border: 2px solid whitesmoke;
 }
 
-/* form */
-.contactandhours {
-  padding-top: 20px;
-  height: 400px;
-  width: 100%;
-  background-color: rgba(115, 167, 136, 0.8);
-}
-
-.contactandhours h1 {
+/* Meet Sloths */
+.meetsloths h1 {
   font-family: "Roboto", serif;
   font-size: 25px;
   padding-left: 25px;
   color: whitesmoke;
   text-shadow: 1px 1px black;
-  margin-bottom: 10px;
 }
 
-.formandtable {
+.meetsloths {
+  width: 100%;
+  height: 350px;
+  padding-top: 20px;
+  background-color: rgba(115, 167, 136, 0.8);
+}
+
+.sloths {
   display: flex;
   justify-content: space-evenly;
 }
 
-form input,
-textarea {
-  font-family: "Roboto", serif;
-  width: 300px;
-  padding: 5px;
-  border: 2px solid black;
-  border-radius: 7px;
-}
-
-form textarea {
-  height: 125px;
-  display: block;
-}
-
-form label {
-  display: block;
-  color: whitesmoke;
-  text-shadow: 1px 1px black;
-  font-family: "Roboto", serif;
-}
-
-form button {
-  font-family: "Roboto", serif;
-  font-size: 17px;
-  width: 100px;
-  margin-top: 5px;
-  padding: 10px;
-  background-color: #135e46;
-  color: whitesmoke;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-/* Table */
-table {
-  font-family: "Roboto", serif;
+.sloths div {
+  border: 3px solid peachpuff;
+  border-radius: 25px;
+  height: 250px;
   width: 25%;
-  border-collapse: collapse;
+  overflow: hidden;
 }
 
-td,
-th {
-  width: 50%;
-  border: 2px solid black;
-  text-align: center;
+.sloth1 {
+  width: 100%;
+  height: 100%;
 }
 
-tr:nth-child(even) {
-  background-color: rgba(115, 167, 136, 1);
+.sloth2 {
+  width: 100%;
+  height: 100%;
 }
 
-th {
-  background-color: #135e46;
-  font-size: 20px;
-  color: whitesmoke;
-  text-shadow: 2px 2px black;
+.sloth3 {
+  width: 100%;
+  height: 100%;
 }
 
 /* footer */
