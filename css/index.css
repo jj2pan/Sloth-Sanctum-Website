@@ -40,6 +40,7 @@ header a {
   color: #b67b65;
   text-shadow: 3px 1px black;
   transition: 0.3s;
+  -moz-transition: 0.3s;
 }
 
 .logo:hover {
@@ -60,6 +61,7 @@ nav a {
   color: #b67b65;
   text-shadow: 1px 1px black;
   transition: 0.3s;
+  -moz-transition: 0.3s;
 }
 
 nav a:hover {
